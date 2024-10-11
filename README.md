@@ -1,3 +1,9 @@
+---
+
+# !!!!! EN CONSTRUCCIÓN !!!!!
+
+---
+
 # Widget de Radar Meteorológico con Datos de AEMet (Übersicht)
 
 ---
