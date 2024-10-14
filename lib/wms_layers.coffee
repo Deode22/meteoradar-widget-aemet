@@ -1,7 +1,7 @@
 L = require "./leaflet.js"
 
 # AEMET API Key - Asegúrate de reemplazar "TU_API_KEY" por tu clave de API válida
-apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkLmZ2aWxsYW51ZXZhQHVwbS5lcyIsImp0aSI6IjcwMGU0NDA4LWEzODktNDg3MC1hNzRlLTFhOTBiZDUxOTRlNCIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNzE4Mjg1NzAwLCJ1c2VySWQiOiI3MDBlNDQwOC1hMzg5LTQ4NzAtYTc0ZS0xYTkwYmQ1MTk0ZTQiLCJyb2xlIjoiIn0.JZjhHTGBk-85Q0g260S08Qekel2LVnk3pSOGdVwBdUM"
+apiKey = "TU API KEY"
 
 # Función para obtener la imagen de radar nacional
 fetchAEMETRadar = (callback) ->
