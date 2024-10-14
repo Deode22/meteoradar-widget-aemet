@@ -46,4 +46,5 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ---
 
-> *Nota: Este proyecto no está afiliado ni respaldado por la Agencia Estatal de Meteorología (AEMet). Los datos se utilizan conforme a las políticas y términos de uso de AEMet.*
+>[!NOTE]
+>*Este proyecto no está afiliado ni respaldado por la Agencia Estatal de Meteorología (AEMet). Los datos se utilizan conforme a las políticas y términos de uso de AEMet.*
