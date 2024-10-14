@@ -68,6 +68,7 @@ nohup python3 -m http.server 8000
 ## A tener en cuenta...
 
 > La imagen de radar está dimensionada para el centro de la península. Las zonas norte y sur están descuadradas, en especial Galicia y Baleares.
+> Esto NO ocurre en el GIF.
 > 
 > Existen puntos de lugares de interés, zonas donde quieras monitorear más las precipitaciones.
 
