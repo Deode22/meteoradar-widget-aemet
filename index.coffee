@@ -40,13 +40,14 @@ afterRender: (domEl) ->
     else
       console.error("No basemap found.")
 
+"""
     # Añadir los marcadores personalizados
     console.log("Adding custom markers...")
     L.circleMarker([40.10575, -5.82441], {color: 'red', radius: 5}).addTo(map)
     L.circleMarker([40.424856875738044, -3.4849927667095733], {color: 'red', radius: 5}).addTo(map)
     L.circleMarker([40.55318143939791, -4.432384838084168], {color: 'red', radius: 5}).addTo(map)
     console.log("Markers added successfully.")
-
+"""
     # Obtener la URL de la imagen del radar y procesarla
     WMSLayers.fetchAEMETRadar (radarImageUrl) ->
       if radarImageUrl
