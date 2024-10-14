@@ -22,7 +22,7 @@ Este widget muestra datos en tiempo real del radar meteorológico proporcionados
 ### Requisitos
 
 - **API Key de AEMet**: Necesaria para acceder a los datos del radar. Siguiendo este enlace puedes solicitar la tuya: [link](https://opendata.aemet.es/centrodedescargas/altaUsuario?)
-    - ¡LA TIENES QUE INTEGRAR EN `index.cofee` y `./lib/wms_layers`!
+    - ¡LA TIENES QUE INTEGRAR EN `radar_fetch.py` y `./lib/wms_layers`!
 - **Conexión a Internet**: Para obtener y actualizar los datos meteorológicos.
 
 ## Instalación
