@@ -5,16 +5,15 @@ from datetime import datetime
 import imageio
 
 # Reemplaza 'TU_API_KEY' con tu clave real de API de AEMET
-API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkLmZ2aWxsYW51ZXZhQHVwbS5lcyIsImp0aSI6IjcwMGU0NDA4LWEzODktNDg3MC1hNzRlLTFhOTBiZDUxOTRlNCIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNzE4Mjg1NzAwLCJ1c2VySWQiOiI3MDBlNDQwOC1hMzg5LTQ4NzAtYTc0ZS0xYTkwYmQ1MTk0ZTQiLCJyb2xlIjoiIn0.JZjhHTGBk-85Q0g260S08Qekel2LVnk3pSOGdVwBdUM'
-
+API_KEY = 'TU_API_KEY'
 # Directorio donde se guardarán las imágenes
-DIRECTORIO_IMAGENES = '/Users/danielfernandezvillanueva/Library/Application Support/Übersicht/widgets/canada_radar.widget/imagenes_radar'
+DIRECTORIO_IMAGENES = 'RUTA/A/imagenes_radar'
 
 # Número máximo de imágenes a mantener
 MAX_IMAGENES = 60
 
 # Nombre del archivo GIF de salida
-NOMBRE_GIF = '/Users/danielfernandezvillanueva/Library/Application Support/Übersicht/widgets/canada_radar.widget/radar_animacion.gif'
+NOMBRE_GIF = 'RUTA/A/radar_animacion.gif'
 
 def descargar_imagen_radar():
     # Paso 1: Obtener el JSON desde la API
