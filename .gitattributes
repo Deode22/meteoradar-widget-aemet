@@ -1,0 +1,27 @@
+# Configuraciones para CoffeeScript (80%)
+
+# Asignar el lenguaje a los archivos .coffee para una mejor detección en GitHub
+*.coffee linguist-language=CoffeeScript
+
+# Manejar los finales de línea para archivos CoffeeScript
+*.coffee text eol=lf
+
+# Aplicar un tratamiento específico para los merges en CoffeeScript
+*.coffee merge=union
+
+# Configurar el diff para archivos CoffeeScript usando un detector específico
+*.coffee diff=coffee
+
+# Configuraciones para Python (20%)
+
+# Asignar el lenguaje a los archivos .py para una mejor detección en GitHub
+*.py linguist-language=Python
+
+# Manejar los finales de línea para archivos Python
+*.py text eol=lf
+
+# Aplicar un tratamiento específico para los merges en Python
+*.py merge=recursive
+
+# Configurar el diff para archivos Python usando el detector por defecto
+*.py diff=python
