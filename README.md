@@ -71,6 +71,8 @@ nohup python3 -m http.server 8000
 > Esto NO ocurre en el GIF.
 > 
 > Existen puntos de lugares de interés, zonas donde quieras monitorear más las precipitaciones.
+>
+> AEMet tiene un desfase de entre 2 y 4 horas
 
 ---
 
